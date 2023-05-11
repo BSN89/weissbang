@@ -1,26 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Footer from "./Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const handleNavigationClick = (section: string) => {
+        alert(`Clicked on ${section}`);
+        // здесь вы можете добавить логику для открытия новых разделов
+    };
+
+    return (
+        <div className="App">
+            <img src="/bangtitle.jpg" alt="My img" />
+            <div className="navigation">
+                <div
+                    className="navigation__section"
+                    onClick={() => handleNavigationClick("Gallery")}
+                >
+                    Gallery
+                </div>
+                <div
+                    className="navigation__section"
+                    onClick={() => handleNavigationClick("Sounds")}
+                >
+                    Sounds
+                </div>
+                <div
+                    className="navigation__section"
+                    onClick={() => handleNavigationClick("Education")}
+                >
+                    Education
+                </div>
+                <div
+                    className="navigation__section"
+                    onClick={() => handleNavigationClick("Basket")}
+                >
+                    Basket
+                </div>
+            </div>
+
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
