@@ -8,14 +8,14 @@ function Footer() {
             <div className="footer__container">
                 <div className="footer__section">
                     <IconContext.Provider value={{ className: "footer__icon" }}>
-                        <a href="https://www.youtube.com/@HardcoreFightingChampionship/community" target="_blank" rel="noopener noreferrer">
+                        <a href="https://youtube.com/@THWSSBNGMS" target="_blank" rel="noopener noreferrer">
                             <FaYoutube />
                         </a>
                     </IconContext.Provider>
                 </div>
                 <div className="footer__section">
                     <IconContext.Provider value={{ className: "footer__icon" }}>
-                        <a href="https://wa.me/your-whatsapp-number" target="_blank" rel="noopener noreferrer">
+                        <a href="https://chat.whatsapp.com/DQMV3M38L2TCsEn5JMpkm5" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp />
                         </a>
                     </IconContext.Provider>
