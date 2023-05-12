@@ -10,7 +10,7 @@ function App() {
 
     return (
         <div className="App">
-            <img src="public/bangtitle.jpg" alt="My img" />
+            <img src="/bangtitle.png" alt="My img" />
             <div className="navigation">
                 <div
                     className="navigation__section"
