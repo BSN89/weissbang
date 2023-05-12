@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from "./Footer";
 
+
 function App() {
     const handleNavigationClick = (section: string) => {
         alert(`Clicked on ${section}`);
@@ -10,7 +11,7 @@ function App() {
 
     return (
         <div className="App">
-            <img src="/bangtitle.png" alt="My img" />
+            <img src="https://bipbap.ru/wp-content/uploads/2017/08/1375998858_1953444020.jpg" alt="My img" />
             <div className="navigation">
                 <div
                     className="navigation__section"
