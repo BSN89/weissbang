@@ -14,7 +14,7 @@ function App() {
 
         <div className="App">
             <NeonButton/>
-            {/*<img src="https://bipbap.ru/wp-content/uploads/2017/08/1375998858_1953444020.jpg" alt="My img"/>*/}
+            <img src="https://i.pinimg.com/750x/d2/fe/de/d2fede981cb7271a4e985e9e671ef3da.jpg" alt="My img"/>
             <div className="navigation">
                 <div
                     className="navigation__section"
