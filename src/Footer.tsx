@@ -1,4 +1,4 @@
-import { FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaYoutube, FaWhatsapp, FaVk, FaTelegram } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 
@@ -20,6 +20,22 @@ function Footer() {
                         </a>
                     </IconContext.Provider>
                 </div>
+
+                <div className="footer__section">
+                    <IconContext.Provider value={{ className: "footer__icon" }}>
+                        <a href="https://vk.com/idtheweissbangmuse" target="_blank" rel="noopener noreferrer">
+                            <FaVk />
+                        </a>
+                    </IconContext.Provider>
+                </div>
+                <div className="footer__section">
+                    <IconContext.Provider value={{ className: "footer__icon" }}>
+                        <a href="https://t.me/your-telegram-page" target="_blank" rel="noopener noreferrer">
+                            <FaTelegram />
+                        </a>
+                    </IconContext.Provider>
+                </div>
+
             </div>
         </footer>
     );
