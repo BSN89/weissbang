@@ -11,10 +11,8 @@ function App() {
 
         <div className="App">
             <Header/>
-            <img className='imgtitle' src="https://kartinkin.net/uploads/posts/2021-04/1617282533_57-p-fon-dlya-prezentatsii-muzika-58.jpg"
-                 width={700}
-                 height={500}
-                 alt="My img"/>
+            {/*<img className='imgtitle' src="https://kartinkin.net/uploads/posts/2021-04/1617282533_57-p-fon-dlya-prezentatsii-muzika-58.jpg"*/}
+            {/*     alt="My img"/>*/}
             <Footer/>
         </div>
     );
